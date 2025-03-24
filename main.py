@@ -38,6 +38,9 @@ def main():
     
     # Execute the tracker with these targets
     tracker.execute_tracker(example_targets)
+
+    for tracks in tracker.receive_track_list():
+        print(tracks)
     
     # # Get the resulting tracks
     # tracks = tracker.receive_track_list()
