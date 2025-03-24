@@ -8,7 +8,7 @@ from innosent_tracker import InnoSenTTracker, ProductCode, TrackClass, Parameter
 def main():
     # Initialize the tracker with the path to the .so file
     # Replace with your actual .so file path
-    tracker = InnoSenTTracker('/path/to/your/libinnosent_tracker.so')
+    tracker = InnoSenTTracker('./InnoSenT_Tracker_Library/Linux_aarch64/libitl.so')
     
     # Initialize the tracker with 0.1s cycle time
     result = tracker.init_tracker(0.1)
