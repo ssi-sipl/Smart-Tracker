@@ -11,7 +11,8 @@ def main():
     tracker = InnoSenTTracker('/path/to/your/libinnosent_tracker.so')
     
     # Initialize the tracker with 0.1s cycle time
-    tracker.init_tracker(0.1)
+    const result = tracker.init_tracker(0.1)
+    print(result)
     
     # Set default values for the product
     tracker.set_default_values(ProductCode.BT_PRODUCT_iSYS5011)
