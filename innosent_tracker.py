@@ -506,7 +506,7 @@ class InnoSenTTracker:
 # Example usage
 if __name__ == "__main__":
     # Create the tracker instance
-    tracker = InnoSenTTracker("./libitl.so")
+    tracker = InnoSenTTracker("./SmartTracker/InnoSenT_Tracker_Library/Linux_aarch64/libitl.so")
     
     # Initialize the tracker with 50ms cycle time
     result = tracker.init_tracker(0.05)
