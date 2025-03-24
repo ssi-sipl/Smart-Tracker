@@ -517,3 +517,15 @@ class InnoSenTTracker:
         result = self.lib.itl_get_parameter_si16(param_type, ctypes.byref(value))
         self._check_result(result)
         return value.value
+    
+def main():
+    tracker = InnoSenTTracker('./InnoSenT_Tracker_Library/Linux_aarch64/libitl.so')
+
+    result_init = tracker.init_tracker(0.1)
+    print(f"init_tracker result: {result_init}")
+
+    result_default_values = tracker.set_default_values(ProductCode.BT_PRODUCT_iSYS5021)
+    print(f"set_default_values result: {result_default_values}")
+
+if __name__ == "__main__":
+    main()
