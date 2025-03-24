@@ -1,0 +1,114 @@
+***************************************************************************************
+
+      II    N     N     N     N      OOOO      SSSSS     EEEEE    N     N    TTTTTTT 
+     II    NNN   N     NNN   N    OO    OO    S         E        NNN   N       T
+    II    N NN  N     N NN  N    OO    OO    SSSSS     EEE      N NN  N       T
+   II    N  NN N     N  NN N    OO    OO        S     E        N  NN N       T
+  II    N    NN     N    NN      OOOO      SSSSS     EEEEE    N    NN       T
+                         copyright (c) 2018, InnoSenT GmbH
+                                 all rights reserved
+
+***************************************************************************************
+
+    RELEASE NOTES - software package:
+
+    supported devices:
+  - iSYS-5011
+  - iSYS-5021
+
+***************************************************************************************
+
+
+   SmartTracker_2019-04-01.zip                                               2019-04-01
+
+
+   DOCUMENTATION:
+
+  - smart tracker user manual rev1.pdf
+
+
+   EXAMPLE_PROJECT:
+   
+  - exampleProject_smartTracker_Linux_armv7
+  - exampleProject_smartTracker_Linux_aarch64
+  - exampleProject_smartTracker_Linux_x86_64
+  - exampleProject_smartTracker_C#.NET_2017
+   
+   
+   INNOSENT_TRACKER_LIBRARY:
+   
+  - Windows
+
+      - itl.dll
+      - libgcc_s_dw2-1.dll
+      - libwinpthread-1.dll
+
+  - Linux_armv7
+
+      - itl.so
+      - itl.so.1
+      - itl.so.1.0
+      - itl.so.1.0.0
+
+  - Linux_aarch64
+
+      - itl.so
+      - itl.so.1
+      - itl.so.1.0
+      - itl.so.1.0.0
+
+  - Linux_x86_64
+
+      - itl.so
+      - itl.so.1
+      - itl.so.1.0
+      - itl.so.1.0.0
+
+
+   INCLUDE_FILES:
+
+  - itl_if.h
+  - bt_basic_types.h
+  - bt_structs_if.h
+  
+***************************************************************************************
+
+   SmartTracker_2018-12-06.zip                                               2018-12-06
+
+
+   DOCUMENTATION:
+
+  - smart tracker user manual rev1.pdf
+
+
+   EXAMPLE_PROJECT:
+   
+  - exampleProject_smartTracker_Linux_armv7
+   
+   
+   INNOSENT_TRACKER_LIBRARY:
+   
+  - Win7_x64_Intel_i7
+
+      - itl.dll
+
+  - Linux_ARMv7
+
+      - itl.so
+      - itl.so.1
+      - itl.so.10     
+      - itl.so.100
+
+   INCLUDE_FILES:
+
+  - itl_if.h
+  - bt_basic_types.h
+  - bt_structs_if.h  
+  
+***************************************************************************************
+
+
+
+
+
+
