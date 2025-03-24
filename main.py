@@ -11,7 +11,7 @@ def main():
     tracker = InnoSenTTracker('/path/to/your/libinnosent_tracker.so')
     
     # Initialize the tracker with 0.1s cycle time
-    const result = tracker.init_tracker(0.1)
+    result = tracker.init_tracker(0.1)
     print(result)
     
     # Set default values for the product
